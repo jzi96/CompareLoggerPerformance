@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+<PropertyGroup>
+</PropertyGroup>
+
+<ItemGroup>
+  <PackageReference Include="benchmarkdotnet" Version="0.13.1" />
+  <PackageReference Include="microsoft.extensions.dependencyinjection" Version="5.0.2" />
+  <PackageReference Include="microsoft.extensions.logging" Version="5.0.0" />
+  <PackageReference Include="Microsoft.extensions.logging.debug" Version="5.0.0" />
+</ItemGroup>
+</Project>
